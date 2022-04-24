@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Online Food Delivery Services| Myonlineresturant.com</title>
+    <link rel="stylesheet" media="screen and (max-width:1170px") href="phone.css">
+    <style>
+        img{
+            width: 100px;
+            height: 100px;
+
+            
+        }
+        *{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --navbar-height:59px
+
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+}
+#logo{
+    margin: 34px 45px;
+
+}
+#logo img{
+    height: 56px;
+    margin: 3px 6px;
+
+}
+
+
+#navbar ul{
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#navbar::before{
+    content: "" ;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+
+}
+#navbar ul li{
+    
+    font-size: 1.3rem;
+    list-style: none;
+}
+#navbar ul li a{
+    color: aliceblue;
+    display: block;
+    padding: 3px 22px ;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+#navbar ul li a:hover{
+    color: brown;
+    background-color: rgb(13, 14, 14);
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 580px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "" ;
+    background: url(https://cdn.pixabay.com/photo/2017/03/01/05/13/table-setting-2107600_1280.jpg) no-repeat center center/cover;
+    position: absolute;
+    
+    
+    height: 613px;
+    width: 100%;
+    
+    
+    z-index: -1;
+    opacity: 0.89;
+
+
+}
+.h-primary{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.8rem;
+    padding: 12px;
+}
+h.secondry{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.8rem;
+    padding:12px ;
+}
+#home h1{
+    color: rgb(18, 18, 19);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#home p{
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn{
+    padding: 6px 24px;
+    border: 2px solid black;
+    background-color: darkorange;
+    color: black;
+    margin: 17px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: black;
+    background-color: rgb(238, 223, 224);
+}
+.centre{
+    text-align: center;
+}
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid rgb(27, 10, 10);
+    background-color:palegoldenrod;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 10px;
+
+}
+#services .box img{
+    height: 120px;
+    width: 200px;
+    margin: auto;
+    display: block;
+}
+#services .box p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}  
+#client-section{
+    position: relative;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+#clients img{
+    height: 200px;
+    width: 200px;
+}
+.client-item{
+    padding: 34px;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url(https://cdn.pixabay.com/photo/2017/08/05/12/33/flat-lay-2583213_1280.jpg);
+    
+    width: 100%;
+    height: 54%;
+    z-index: -4;
+    opacity: 0.5;
+}
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url(https://cdn.pixabay.com/photo/2019/05/10/14/23/contact-us-4193637_1280.jpg) no-repeat center center/cover ;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    ;
+    
+}
+footer{
+    background: black;
+    color: azure;
+    padding: 9px 20px;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px ;
+}
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+    <div id="logo">
+        <img src="https://graphicsfamily.com/wp-content/uploads/edd/2021/06/Food-Logo-Design.jpg" alt="Myonlinemeal.com">
+
+    </div>
+    <ul>
+        <li class="item"><a href="#">Home</a></li>
+        <li class="item"><a href="#">Services</a></li>
+        <li class="item"><a href="#">About Us</a></li>
+        <li class="item"><a href="#">Contact us</a></li>
+        
+    </ul>
+</nav>
+<section id="home">
+    <h1 class="h-primary">Welcome to Myonlineresturant</h1>
+    <p>An authentic taste where you will taste new things and explore more. </p>
+    <p>The best place to taste new recipes and food.A Best ever resturant will all the best cheifs and the best services.</p>
+    <button class="btn">Order Now</button>
+    </section>
+    <section class="services-container">
+        <h1 class="h-primary centre">Our services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="https://cdn.pixabay.com/photo/2015/04/08/13/13/food-712665_1280.jpg" >
+                <h2 class="h-secondry centre">Food ordering</h2>
+                <p>You can order your food from here.As it will take less time to parepare your order and there will be an authentic taste which you will never taste from anywhere.</p>
+            </div>
+            <div class="box">
+                <img src="https://cdn.pixabay.com/photo/2022/01/03/10/29/grilled-fish-6912548_1280.jpg" >
+                <h2 class="h-secondry centre">Bulk ordering</h2>
+                <p>You can also visit to our resturant and you will be treated in a best way.As we have the best hospitality and we will serve you the best and in hygeinic way.</p>
+            </div>
+            <div class="box">
+                <img src="https://media.istockphoto.com/photos/young-caucasian-delivery-man-on-scooter-looking-aside-picture-id1281232454" >
+                <h2 class="h-secondry centre">Food Delivery</h2>
+                <p>If you want to taste our authentic taste then you can also place online order and we will deliver you in less speed as our delivery partner ensures your priority</p>
+            </div>
+            
+            
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary centre"> Our Clients</h1>
+        <div id="clients">
+            
+            <div class="client-item"> 
+                <img src="https://logowik.com/content/uploads/images/zomato2708.jpg" alt="Our Client">
+            </div>
+            
+            <div class="client-item"> 
+                <img src="https://www.exchange4media.com/news-photo/99320.wiggy.jpg" alt="Our Client">
+
+            </div>
+            <div class="client-item"> 
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png" alt="Our Client"alt="Our Client">
+
+            
+
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary centre">Contact us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name"
+                    placeholder="Enter your name ">
+                    <div class="form-group">
+                    <label for="E mail">E mail: </label>
+                    <input type="text" name="name" id="E mail"
+                    placeholder="Enter your E mail ">
+                    <div class="form-group">
+                    <label for="Phone Number">Phone Number: </label>
+                    <input type="text" name="name" id="Phone Number"
+                    placeholder="Enter your name ">
+                    <div class="form-group">
+                    <label for="Message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="centre">
+            Copyright &#169; www.MYonlineresturant.com All rights reserved!
+
+        </div>
+
+    </footer>
+    
+</body>
+</html>
